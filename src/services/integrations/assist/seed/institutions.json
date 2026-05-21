@@ -1,0 +1,10 @@
+[
+  { "id": 113, "name": "Foothill College", "code": "FOOTHILL", "category": "CC" },
+  { "id": 79, "name": "De Anza College", "code": "DEANZA", "category": "CC" },
+  { "id": 5, "name": "University of California, Berkeley", "code": "UCB", "category": "UC" },
+  { "id": 11, "name": "University of California, Los Angeles", "code": "UCLA", "category": "UC" },
+  { "id": 7, "name": "University of California, San Diego", "code": "UCSD", "category": "UC" },
+  { "id": 9, "name": "University of California, Davis", "code": "UCD", "category": "UC" },
+  { "id": 12, "name": "University of California, Santa Barbara", "code": "UCSB", "category": "UC" },
+  { "id": 39, "name": "San Jose State University", "code": "SJSU", "category": "CSU" }
+]

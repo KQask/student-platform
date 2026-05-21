@@ -1,0 +1,250 @@
+[
+  {
+    "receivingInstitutionId": 5,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Computer Science",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=5&type=major",
+    "groups": [
+      {
+        "name": "Introductory Programming Series",
+        "description": "Complete the C++ programming series.",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "C S 2A", "seriesKey": "ucb-cs-intro" },
+          { "courseCode": "C S 2B", "seriesKey": "ucb-cs-intro" }
+        ]
+      },
+      {
+        "name": "Discrete Mathematics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 22" }]
+      },
+      {
+        "name": "Calculus Series",
+        "minCourses": 3,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucb-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucb-calc" },
+          { "courseCode": "MATH 1C", "seriesKey": "ucb-calc" }
+        ]
+      },
+      {
+        "name": "Linear Algebra & Differential Equations",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 2A" }, { "courseCode": "MATH 2B" }]
+      },
+      {
+        "name": "Physics for Scientists & Engineers — Mechanics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "PHYS 4A" }]
+      },
+      {
+        "name": "Physics for Scientists & Engineers — Electricity",
+        "minCourses": 1,
+        "options": [{ "courseCode": "PHYS 4B" }]
+      }
+    ]
+  },
+  {
+    "receivingInstitutionId": 11,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Computer Science",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=11&type=major",
+    "groups": [
+      {
+        "name": "Introductory Programming",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "C S 2A", "seriesKey": "ucla-cs-intro" },
+          { "courseCode": "C S 2B", "seriesKey": "ucla-cs-intro" }
+        ]
+      },
+      {
+        "name": "Discrete Structures",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 22" }]
+      },
+      {
+        "name": "Calculus Series",
+        "minCourses": 3,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucla-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucla-calc" },
+          { "courseCode": "MATH 1C", "seriesKey": "ucla-calc" }
+        ]
+      },
+      {
+        "name": "Physics Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "PHYS 4A", "seriesKey": "ucla-phys" },
+          { "courseCode": "PHYS 4B", "seriesKey": "ucla-phys" }
+        ]
+      }
+    ]
+  },
+  {
+    "receivingInstitutionId": 7,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Computer Science",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=7&type=major",
+    "groups": [
+      {
+        "name": "Programming Foundations",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "C S 2A", "seriesKey": "ucsd-cs-intro" },
+          { "courseCode": "C S 2B", "seriesKey": "ucsd-cs-intro" }
+        ]
+      },
+      {
+        "name": "Data Structures",
+        "minCourses": 1,
+        "options": [{ "courseCode": "C S 2C" }]
+      },
+      {
+        "name": "Calculus Series",
+        "minCourses": 3,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucsd-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucsd-calc" },
+          { "courseCode": "MATH 1C", "seriesKey": "ucsd-calc" }
+        ]
+      },
+      {
+        "name": "Linear Algebra",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 2B" }]
+      },
+      {
+        "name": "Physics Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "PHYS 4A", "seriesKey": "ucsd-phys" },
+          { "courseCode": "PHYS 4B", "seriesKey": "ucsd-phys" }
+        ]
+      }
+    ]
+  },
+  {
+    "receivingInstitutionId": 5,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Biology",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=5&type=major",
+    "groups": [
+      {
+        "name": "General Biology Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "BIOL 1A", "seriesKey": "ucb-bio" },
+          { "courseCode": "BIOL 1B", "seriesKey": "ucb-bio" }
+        ]
+      },
+      {
+        "name": "General Chemistry Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "CHEM 1A", "seriesKey": "ucb-chem" },
+          { "courseCode": "CHEM 1B", "seriesKey": "ucb-chem" }
+        ]
+      },
+      {
+        "name": "Organic Chemistry",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "CHEM 12A", "seriesKey": "ucb-ochem" },
+          { "courseCode": "CHEM 12B", "seriesKey": "ucb-ochem" }
+        ]
+      },
+      {
+        "name": "Calculus",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucb-bio-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucb-bio-calc" }
+        ]
+      },
+      {
+        "name": "Physics Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "PHYS 2A", "seriesKey": "ucb-bio-phys" },
+          { "courseCode": "PHYS 2B", "seriesKey": "ucb-bio-phys" }
+        ]
+      }
+    ]
+  },
+  {
+    "receivingInstitutionId": 5,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Economics",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=5&type=major",
+    "groups": [
+      {
+        "name": "Principles of Microeconomics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "ECON 1A" }]
+      },
+      {
+        "name": "Principles of Macroeconomics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "ECON 1B" }]
+      },
+      {
+        "name": "Calculus Series",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucb-econ-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucb-econ-calc" }
+        ]
+      },
+      {
+        "name": "Multivariable Calculus",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 1C" }]
+      },
+      {
+        "name": "Statistics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 10" }, { "courseCode": "PSYC 7" }]
+      }
+    ]
+  },
+  {
+    "receivingInstitutionId": 11,
+    "sendingInstitutionId": 113,
+    "academicYear": "2025-2026",
+    "majorName": "Economics",
+    "sourceUrl": "https://assist.org/transfer/results?year=75&institution=113&agreement=11&type=major",
+    "groups": [
+      {
+        "name": "Microeconomics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "ECON 1A" }]
+      },
+      {
+        "name": "Macroeconomics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "ECON 1B" }]
+      },
+      {
+        "name": "Calculus",
+        "minCourses": 2,
+        "options": [
+          { "courseCode": "MATH 1A", "seriesKey": "ucla-econ-calc" },
+          { "courseCode": "MATH 1B", "seriesKey": "ucla-econ-calc" }
+        ]
+      },
+      {
+        "name": "Statistics",
+        "minCourses": 1,
+        "options": [{ "courseCode": "MATH 10" }]
+      }
+    ]
+  }
+]

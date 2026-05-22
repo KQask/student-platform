@@ -37,7 +37,7 @@ services:
     container_name: student-platform-webhook
     restart: unless-stopped
     working_dir: /app
-    command: sh -c "apk add --no-cache git docker-cli && node webhook.js"
+    command: sh -c "apk add --no-cache git && node webhook.js"
     environment:
       WEBHOOK_SECRET: ${WEBHOOK_SECRET}
       WEBHOOK_PORT: 9000
@@ -46,6 +46,8 @@ services:
       - ./webhook.js:/app/webhook.js:ro
       - /root/student-platform:/project
       - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/bin/docker:/usr/bin/docker:ro
+      - /usr/libexec/docker:/usr/libexec/docker:ro
     ports:
       - "9000:9000"
 

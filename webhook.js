@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
     console.log(`[${new Date().toISOString()}] Push to main — deploying...`);
 
     try {
-      execSync(`cd ${PROJECT_DIR} && git pull && docker compose up -d --build`, {
+      execSync(`cd ${PROJECT_DIR} && git pull && docker compose up -d --build 2>&1`, {
         stdio: "inherit",
       });
       console.log("Deploy complete");

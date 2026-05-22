@@ -27,7 +27,7 @@ services:
       DATABASE_URL: postgresql://student:student@postgres:5432/student_platform?schema=public
       NODE_ENV: production
     ports:
-      - "127.0.0.1:3000:3000"
+      - "3000:3000"
     depends_on:
       postgres:
         condition: service_healthy

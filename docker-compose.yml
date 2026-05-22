@@ -7,8 +7,6 @@ services:
       POSTGRES_USER: student
       POSTGRES_PASSWORD: student
       POSTGRES_DB: student_platform
-    ports:
-      - "5433:5432"
     volumes:
       - student_platform_pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -16,6 +14,23 @@ services:
       interval: 5s
       timeout: 3s
       retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: student-platform-app
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      # Overrides DATABASE_URL from .env to use Docker-internal hostname
+      DATABASE_URL: postgresql://student:student@postgres:5432/student_platform?schema=public
+      NODE_ENV: production
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
 
 volumes:
   student_platform_pgdata:

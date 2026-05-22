@@ -32,5 +32,22 @@ services:
       postgres:
         condition: service_healthy
 
+  webhook:
+    image: node:20-alpine
+    container_name: student-platform-webhook
+    restart: unless-stopped
+    working_dir: /app
+    command: node webhook.js
+    environment:
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET}
+      WEBHOOK_PORT: 9000
+      PROJECT_DIR: /project
+    volumes:
+      - ./webhook.js:/app/webhook.js:ro
+      - /root/student-platform:/project
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "127.0.0.1:9000:9000"
+
 volumes:
   student_platform_pgdata:

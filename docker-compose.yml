@@ -47,7 +47,7 @@ services:
       - /root/student-platform:/project
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - "127.0.0.1:9000:9000"
+      - "9000:9000"
 
 volumes:
   student_platform_pgdata:
